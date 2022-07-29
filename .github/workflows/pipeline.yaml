@@ -18,4 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: run script
-      run: echo Helloworld
+      run: echo Hello world
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: deploy script
+      run: echo Hello World
